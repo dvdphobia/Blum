@@ -4,8 +4,8 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>multichainwallet</artifactId>
+    <groupId>com.blum</groupId>
+    <artifactId>wallet</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
