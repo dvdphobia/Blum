@@ -17,4 +17,5 @@ public class Wallet {
 
     @Override
     public String toString() { return chain + " | " + address; }
+    
 }

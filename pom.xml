@@ -5,29 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blum</groupId>
-    <artifactId>wallet</artifactId>
+    <artifactId>blum</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Blum</name>
 
-    <dependencies>
-        <!-- Ethereum -->
-        <dependency>
-            <groupId>org.web3j</groupId>
-            <artifactId>core</artifactId>
-            <version>5.0.0</version>
-        </dependency>
-
-        <!-- Bitcoin -->
-        <dependency>
-            <groupId>org.bitcoinj</groupId>
-            <artifactId>bitcoinj-core</artifactId>
-            <version>0.16.3</version>
-        </dependency>
-
-        <!-- JSON -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>engine</module>
+        <module>cli</module>
+    </modules>
 </project>

@@ -129,6 +129,7 @@ public class WalletManager {
         }
     }
 
+    
     private boolean isValidEthAddress(String address) {
         if (address == null) return false;
         String a = address.trim();

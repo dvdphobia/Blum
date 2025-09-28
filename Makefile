@@ -1,5 +1,5 @@
 compile:
-	mvn compile
+	mvn -q -DskipTests install
 
 run:
-	mvn exec:java -Dexec.mainClass=com.blum.wallet.WalletCLI
+	mvn -q -f cli/pom.xml exec:java

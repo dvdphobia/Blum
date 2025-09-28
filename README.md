@@ -5,13 +5,13 @@ A very simple Java app to create/import wallets for Ethereum (ETH), Binance Smar
 ## 1) Build
 
 ```bash
-mvn -q -DskipTests package
+mvn -q -DskipTests clean install
 ```
 
 ## 2) Run
 
 ```bash
-mvn -q exec:java -Dexec.mainClass=com.blum.wallet.WalletCLI
+mvn -q -f cli/pom.xml exec:java
 ```
 
 You will see a menu. Type the number and press Enter.
